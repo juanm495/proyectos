@@ -1,0 +1,590 @@
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Global */
+#container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+  background-color: #ffcc33;
+}
+#foto img{
+  width: 200px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 23%;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.seccion{
+  width: 90%;
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  padding-left: 10px;
+  padding-right: -100px;
+  padding-top: 40px;
+}
+.contacto{
+  width: 90%;
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  padding-left: 40px;
+  padding-right: -100px;
+  margin-bottom: 100px;
+}
+.educacion{
+  width: 90%;
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: -100px;
+}
+.seccion h2 {
+  padding-bottom: 50px;
+}
+#title{
+  width: 100%;
+  font-family: courier, Helvetica;
+  text-transform: courier;
+  color:white;
+  text-align: center;
+  text-decoration-color: #000000;
+  padding-bottom: -10px;
+}
+#wrap {
+  width: 100%;
+}
+#intro{
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  padding-left: 10px;
+  padding-right: -100px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+#intro h1{
+  color: #000;
+}
+#clear {
+    clear: both;
+}
+#branding{
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  font-size: 30px;
+  margin-top: -22px;
+  margin-left: -12px;
+  margin-right: -20px;
+  padding-left: 20px;
+  background-color:#9B2828;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5%;
+  border-bottom: 3px;
+  border-color: #CC0000;
+  border-left: 0px;
+  border-style: solid;
+}
+.button_1{
+height: 38px;
+background: #9B2828;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color:#ffffff;
+}
+#branding h5{
+  margin-top: 0;
+  padding-top: 0;
+}
+#newsletter{
+   padding: 15px;
+   color:#ffffff;
+ }
+#newsletter h1{
+ float: left;
+
+}
+#newsletter form{
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+ float: right;
+ margin-top: 15px;
+
+}
+#newsletter input[type=email]{
+  margin-top: 20px;
+  margin-bottom: 20px;
+ padding: 4px;
+ height: 25px;
+ width: 50%;
+}
+#recomendaciones{
+  color: black;
+  width: 90%;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  text-decoration: underline;
+  border-style: groove;
+  border-color: #000;
+  border-left: 10px solid #ccc;
+  margin-left: 0px;
+  text-align: center;
+  background-color: #9B2828;
+  border-top-color: #CC0000;
+  border-bottom-color: #CC0000;
+  border-right-color: #CC0000;
+}
+.portfolio{
+  width: 100%;
+  color: white;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer{
+  color: black;
+  font-size-adjust: auto;
+  font-family:   courier, Helvetica;
+  text-transform: courier;
+  background-color: #9B2828;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 9%;
+  padding-left: -35px;
+}
+.footer{
+  visibility: hidden;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px){
+
+  #foto img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30%;
+  }
+
+  #intro{
+    width: 90%;
+    text-align: left;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    padding-left: 50px;
+    padding-right: -100px;
+    margin-bottom: 20px;
+  margin-top: -10px;
+  }
+
+  #recomendaciones{
+    color: black;
+    width: 80%;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    text-decoration: underline;
+    border-style: groove;
+    border-color: #000;
+    border-left: 10px solid #ccc;
+    margin-top: 20px;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #9B2828;
+    border-top-color: #CC0000;
+    border-bottom-color: #CC0000;
+    border-right-color: #CC0000;
+  }
+  .educacion{
+    width: 50%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: -100px;
+  }
+  .seccion{
+    width: 80%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    padding-left: 50px;
+    padding-right: -150px;
+    padding-top: 10px;
+  }
+  .seccion h2 {
+    padding-bottom: 20px;
+  }
+  #newsletter{
+     padding: 15px;
+     color:#ffffff;
+   }
+  #newsletter h1{
+   float: left;
+
+  }
+  #newsletter form{
+    width: 75%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: -100px;
+   float: left;
+  }
+  #newsletter input[type=email]{
+    margin-left: 50px;
+  margin-top: 50px;
+   padding: 4px;
+   height: 25px;
+   width: 50%;
+  }
+  .portfolio{
+    width: 100%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .footer1{
+    color: black;
+    font-size-adjust: auto;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    background-color: #9B2828;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 9%;
+    padding-left: -35px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  #branding{
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    font-size: 30px;
+    margin-top: -22px;
+    margin-left: -12px;
+    margin-right: -20px;
+    padding-left: 20px;
+    background-color:#9B2828;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5%;
+    border-bottom: 3px;
+    border-color: #CC0000;
+    border-left: 0px;
+    border-style: solid;
+  }
+  #foto img{
+    float: right;
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 15%;
+  }
+  #title{
+    width: 50px;
+    font-family: courier, Helvetica;
+    text-transform: courier;
+    color:white;
+    text-align: center;
+    text-decoration-color: #000000;
+    padding-bottom: -10px;
+    margin-top: 15%;
+    margin-left: 50px;
+  }
+  #intro{
+    margin-top: 50px;
+    width: 800px;
+    text-align: left;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+  }
+
+  #recomendaciones{
+    color: black;
+    width: 60%;
+    font-family:   courier, Helvetica;
+    font-size: 24px;
+    text-transform: courier;
+    text-decoration: underline;
+    border-style: groove;
+    border-color: #000;
+    border-left: 10px solid #ccc;
+    margin-top: 200px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: #9B2828;
+    border-top-color: #CC0000;
+    border-bottom-color: #CC0000;
+    border-right-color: #CC0000;
+  }
+  .educacion{
+    width: 30%;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    padding-top: 37px;
+    padding-left: 50px;
+  }
+  .seccion{
+    width: 90%;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    padding-left: 50px;
+    padding-right: -100px;
+    padding-top: 30px;
+  }
+  #newsletter{
+     padding: 15px;
+     color:#ffffff;
+   }
+  #newsletter h1{
+   float: left;
+
+  }
+  #newsletter form{
+    float: left;
+    width: 30%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    margin-left: -100px;
+  }
+  #newsletter input[type=email]{
+    margin-left: 50px;
+  margin-top: 50px;
+   padding: 4px;
+   height: 25px;
+   width: 50%;
+  }
+  .portfolio{
+    float: right;
+    width: 30%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-top: 280px;
+    margin-bottom: 10px;
+  }
+  .contacto{
+    width: 50%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    margin-top: 400px;
+    padding-left: 40px;
+    padding-right: -100px;
+    margin-bottom: 100px;
+  }
+  .footer{
+    color: black;
+    font-size-adjust: auto;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    background-color: #9B2828;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 9%;
+    padding-left: -35px;
+  }
+  .footer{
+    visibility: visible; 
+  }
+}
+@media only screen and (min-width: 1900px){
+  #branding{
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    font-size: 30px;
+    margin-top: -22px;
+    margin-left: -12px;
+    margin-right: -20px;
+    padding-left: 20px;
+    background-color:#9B2828;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5%;
+    border-bottom: 3px;
+    border-color: #CC0000;
+    border-left: 0px;
+    border-style: solid;
+  }
+  #foto img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30%;
+  }
+  #title{
+    width: 50px;
+    font-family: courier, Helvetica;
+    text-transform: courier;
+    color:white;
+    text-align: center;
+    text-decoration-color: #000000;
+    padding-bottom: -10px;
+    margin-top: 10%;
+    margin-left: 50px;
+  }
+  #intro{
+    margin-top: 50px;
+    width: 800px;
+    text-align: left;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+  }
+
+  #recomendaciones{
+    color: black;
+    width: 60%;
+    font-family:   courier, Helvetica;
+    font-size: 24px;
+    text-transform: courier;
+    text-decoration: underline;
+    border-style: groove;
+    border-color: #000;
+    border-left: 10px solid #ccc;
+    margin-top: 200px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: #9B2828;
+    border-top-color: #CC0000;
+    border-bottom-color: #CC0000;
+    border-right-color: #CC0000;
+  }
+  .educacion{
+    width: 20%;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    padding-top: 37px;
+    padding-left: 50px;
+  }
+  .seccion{
+    width: 90%;
+    color: white;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    padding-left: 50px;
+    padding-right: -100px;
+    padding-top: 30px;
+  }
+  #newsletter{
+     padding: 15px;
+     color:#ffffff;
+   }
+  #newsletter h1{
+   float: left;
+
+  }
+  #newsletter form{
+    float: left;
+    width: 30%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    margin-left: -100px;
+    margin-top: 200px;
+  }
+  #newsletter input[type=email]{
+    margin-left: 50px;
+  margin-top: 50px;
+   padding: 4px;
+   height: 25px;
+   width: 50%;
+  }
+  .portfolio{
+    float: right;
+    width: 30%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-top: 280px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+  }
+  .contacto{
+    width: 50%;
+    color: white;
+    font-family:   courier, Helvetica;
+    text-transform: courier;
+    margin-top: 600px;
+    padding-left: 40px;
+    padding-right: -100px;
+    margin-bottom: 100px;
+  }
+  .footer{
+    color: black;
+    font-size-adjust: auto;
+    font-family:   courier, Helvetica;
+    font-size: 20px;
+    text-transform: courier;
+    background-color: #9B2828;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 9%;
+    padding-left: -35px;
+  }
+  .footer{
+    visibility: visible; 
+  }
+}
+</style>
